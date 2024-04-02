@@ -34,8 +34,7 @@ public class ManagementCompany {
 			if(properties[i].getPlot().overlaps(p.getPlot()))
 				return -4;
 		}
-		
-		System.out.println(this);
+		properties[indexToAddAt] = p;
 		return indexToAddAt;
 	}
 	
