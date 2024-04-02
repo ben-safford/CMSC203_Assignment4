@@ -1,3 +1,16 @@
+/*
+ * Class: CMSC203 
+ * Instructor: Ashique Tanveer
+ * Description: 2D plot data storage
+ * Due: 4/1/24
+ * Platform/compiler: Java/Eclipse
+ * I pledge that I have completed the programming 
+ * assignment independently. I have not copied the code 
+ * from a student or any source. I have not given my code 
+ * to any student.
+   Print your Name here: Ben Safford
+*/
+
 
 public class Plot {
 	

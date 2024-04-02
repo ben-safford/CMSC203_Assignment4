@@ -1,3 +1,15 @@
+/*
+ * Class: CMSC203 
+ * Instructor: Ashique Tanveer
+ * Description: Management company data manager
+ * Due: 4/1/24
+ * Platform/compiler: Java/Eclipse
+ * I pledge that I have completed the programming 
+ * assignment independently. I have not copied the code 
+ * from a student or any source. I have not given my code 
+ * to any student.
+   Print your Name here: Ben Safford
+*/
 
 public class ManagementCompany {
 	
@@ -36,6 +48,10 @@ public class ManagementCompany {
 		}
 		properties[indexToAddAt] = p;
 		return indexToAddAt;
+	}
+	
+	public void removeLastProperty() {
+		properties[getPropertiesCount() - 1] = null;
 	}
 	
 	public boolean isPropertiesFull() {
